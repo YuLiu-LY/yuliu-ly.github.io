@@ -1,0 +1,171 @@
+<!--
+ * @Author: Yu Liu liuyu20@mails.tsinghua.edu.cn
+ * @Date: 2023-01-30 
+ * @LastEditors: Yu Liu liuyu20@mails.tsinghua.edu.cn
+ * @LastEditTime: 2023-01-30
+ * @FilePath: \yuLiu-ly.github.io\index.html
+ * @Description: This is the Web Page of Yu Liu
+-->
+<!DOCTYPE HTML>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <title>Yu Liu @ THU</title>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-DQ29Q4W6T6"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-DQ29Q4W6T6');
+  </script>
+
+  <meta name="author" content="Yu Liu">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="msvalidate.01" content="1D6EAEB9C6558C0BB977413398D67E91" />
+  
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="icon" href="images/icon.png">
+</head>
+
+<body>
+    <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+      <tr style="padding:0px">
+        <td style="padding:0px">
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr style="padding:0px">
+              <td style="padding:2.5%;width:63%;vertical-align:middle">
+                <p style="text-align:center">
+                  <name>Yu Liu</name><chname>(刘宇)</chname>
+                </p>
+                <p>
+                    I'm Yu Liu, a senior undergraduate student in <a href="https://www.au.tsinghua.edu.cn/" target="_blank">Department of Automation, Tsinghua University</a>.
+                    I joined the <a href="https://tongclass.ac.cn" target="_blank">Tong Class</a> (an AGI program founded by <a href="https://www.zhusongchun.net" target="_blank">Prof. Song-Chun Zhu</a>), 
+                    being a member and the monitor in the class of 2020. 
+                    I'm currently working at [BIGAI](https://www.bigai.ai/index.html)(Beijing Institute for General Artificial Intelligence) General Vision Lab as a research intern 
+                    advised by <a href="https://buzz-beater.github.io" target="_blank">Dr. Baoxiong Jia</a> and <a href="https://siyuanhuang.com/" target="_blank">Dr. Siyuan Huang</a>.
+                    
+                </p>
+                <p>
+                    My research interest lies in computer vision, specifically unsupervised object-centric learning.
+                    My hobbies are reading, music, natural scenery and meditation.
+                </p>
+                <p style="text-align:center">
+                  <a href="mailto:liuyu20@mails.tsinghua.edu.cn">Email</a> &nbsp/&nbsp
+                  <a href="https://scholar.google.at/citations?user=HTsO18AAAAAJ&hl=en&oi=ao" target="_blank">Google Scholar</a> &nbsp/&nbsp
+                  <a href="https://github.com/yuLiu-ly/" target="_blank">Github</a> &nbsp/&nbsp
+                </p>
+              </td>
+              <td style="padding:2.5%;width:30%;max-width:30%">
+                <a href="images/Personal/YuLiu1.jpg"><img style="width:100%;max-width:100%" alt="profile photo" src="images/Personal/YuLiu1.jpg" class="hoverZoomLink"></a>
+              </td>
+            </tr>
+    </tbody></table>
+
+    <!-- RESEARCH -->
+    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+        <tr>
+          <td style="padding:20px;width:100%;vertical-align:middle;padding-bottom:0px;">
+            <heading>Research</heading>
+          </td>
+        </tr>
+    </tbody></table>
+    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+      <tr onmouseout="scenediffuser_stop()" onmouseover="scenediffuser_start()">
+        <td style="padding:20px;width:25%;vertical-align:middle;padding-top:60px;padding-bottom:0px;">
+          <div class="one">
+            <div class="two" id='scenediffuser_image'>
+              <img src='images/Research/overview_new.png' width="190"></div>
+            <img src='images/Research/overview_new.png' width="190">
+          </div>
+          <script type="text/javascript">
+            function scenediffuser_start() {
+              document.getElementById('scenediffuser_image').style.opacity = "1";
+            }
+
+            function scenediffuser_stop() {
+              document.getElementById('scenediffuser_image').style.opacity = "0";
+            }
+            scenediffuser_stop()
+          </script>
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle;padding-bottom:0px;">
+          <papertitle>Diffusion-based Generation, Optimization, and Planning in 3D Scenes</papertitle>
+          <br>
+          <a href="https://buzz-beater.github.io/" target="_blank">Baoxiong Jia*</a>,
+          <strong>Yu Liu*</strong>,
+          <a href="https://siyuanhuang.com/" target="_blank">Siyuan Huang</a>,
+          <br>
+          <em>ICLR</em> 2023
+          <br>
+          <a href="https://arxiv.org/abs/2210.08990" target="_blank">[Paper]</a>
+          &nbsp
+          <a href="https://bo-qsa.github.io/" target="_blank">[Project Page]</a>
+          <br>
+          <abs>
+            We proposed methods for (1) initializing Slot-Attention modules with learnable queries and 
+            (2) optimizing the model with bi-level optimization. With simple code adjustments on the 
+            vanilla Slot-Attention, our model, Bi-level Optimized Query Slot Attention, 
+            achieves state-of-the-art results on 3 challenging synthetic and 7 complex real-world datasets 
+            in unsupervised image segmentation and reconstruction, outperforming previous baselines by a large margin.
+          </abs>
+        </td>
+      </tr>
+
+
+    </tbody></table>
+    
+    <!-- EXPERIENCE -->
+    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+      <tr>
+        <td style="padding:20px;width:100%;vertical-align:middle;padding-top:40px;">
+          <heading>Experience</heading>
+        </td>
+      </tr>
+    </tbody></table>
+    <table width="100%" align="center" border="0" cellpadding="20"><tbody>
+      <tr>
+        <td style="padding:10px;width:18px;vertical-align:middle"><img src="images/Institution/bigai.png", width="100px"></td>
+        <td width="90%" valign="center">
+          <b>Beijing Institute for General Artificial Intelligence(BIGAI)</b>, China
+          <br> 2021.09 - now
+          <br>
+          <br> <b>Research Intern</b>
+          <br> Advisor: <a href="http://tengyu.ai/">Dr. Tengyu Liu</a>
+        </td>
+      </tr>
+      <tr>
+        <td style="padding:10px;width:18px;vertical-align:middle"><img src="images/Institution/tsinghua.svg", width="100px"></td>
+        <td width="90%" valign="center">
+          <b>Tsinghua University</b>, China
+          <br> 2019.08 - now
+          <br>
+          <br> <b>Undergraduate Student</b>
+        </td>
+      </tr>
+    </tbody></table>
+
+
+    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+      <tr>
+        <td style="padding:0px">
+          <br>
+          <p style="text-align:right;font-size:small;">
+          Thanks for your visiting by &#128522.
+          <br>
+          Template stolen from <a href="https://jonbarron.info/" style="text-align:right;font-size:small;" target="_blank">Jon Barron</a>. 
+          Page icon made by <a href="https://www.flaticon.com/authors/freepik" style="text-align:right;font-size:small;" target="_blank">Freepik</a>
+          from <a href="https://www.flaticon.com/" style="text-align:right;font-size:small;" target="_blank">flaticon.com</a> .
+          <!-- <br> 
+          Last updated: Oct. 6, 2022 -->
+          </p>
+        </td>
+      </tr>
+    </tbody></table>
+  </td>
+  </tr>
+  </table>
+</body>
+
+</html>
