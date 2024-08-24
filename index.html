@@ -30,7 +30,7 @@
                   <name>Yu Liu </name><chname> (刘宇)</chname>
                 </p>
                 <p>
-                    I'm Yu Liu, a senior undergraduate student in <a href="https://www.au.tsinghua.edu.cn/" target="_blank">Department of Automation, Tsinghua University</a>.
+                    I'm Yu Liu, a Ph.D. candidate in <a href="https://www.au.tsinghua.edu.cn/" target="_blank">Department of Automation, Tsinghua University</a>, advised by <a href="https://www.zhusongchun.net" target="_blank">Prof. Song-Chun Zhu</a>.
                     I joined the <a href="https://tongclass.ac.cn" target="_blank">Tong Class</a> (an AGI program founded by <a href="https://www.zhusongchun.net" target="_blank">Prof. Song-Chun Zhu</a>), 
                     being a member and the monitor in the class of 2020. 
                     I'm currently working at General Vision Lab in <a href="https://www.bigai.ai/" target="_blank">BIGAI</a> (Beijing Institute for General Artificial Intelligence) as a research intern 
@@ -62,7 +62,46 @@
         </tr>
     </tbody></table>
     <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+      <tr onmouseout="scenediffuser_stop()" onmouseover="scenediffuser_start()">
+        <td style="padding:20px;width:25%;vertical-align:middle;padding-top:60px;padding-bottom:0px;">
+          <div class="one">
+            <div class="two" id='scenediffuser_image'>
+              <img src='images/Research/slotlifter.png' width="190"></div>
+            <img src='images/Research/slotlifter.png' width="190">
+          </div>
+          <script type="text/javascript">
+            function scenediffuser_start() {
+              document.getElementById('scenediffuser_image').style.opacity = "1";
+            }
 
+            function scenediffuser_stop() {
+              document.getElementById('scenediffuser_image').style.opacity = "0";
+            }
+            scenediffuser_stop()
+          </script>
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle;padding-bottom:0px;">
+          <papertitle>SlotLifter: Slot-guided Feature Lifting for Learning Object-centric Radiance Fields</papertitle>
+          <br>
+          <strong>Yu Liu*</strong>,
+          <a href="https://buzz-beater.github.io/" target="_blank">Baoxiong Jia*</a>,
+          <a href="https://yixchen.github.io/" target="_blank">Yixin Chen</a>,
+          <a href="https://siyuanhuang.com/" target="_blank">Siyuan Huang</a>,
+          <br>
+          <em>ECCV</em> 2024
+          <br>
+          <a href="https://arxiv.org/abs/2408.06697" target="_blank">[Paper]</a>
+          &nbsp
+          <a href="https://slotlifter.github.io/" target="_blank">[Project Page]</a>
+          &nbsp
+          <a href="https://slotlifter.github.io/" target="_blank">[Code (Coming soon)]</a>
+          <br>
+          <abs>
+           We propose SlotLifter, a novel object-centric radiance model that aims to address the challenges of scene reconstruction and decomposition via slot-guided feature lifting. Such a design unites object-centric learning representations and image-based rendering methods, offering state-of-the-art performance in scene decom-position and novel-view synthesis on four challenging synthetic and four complex real-world datasets, outperforming existing 3D object-centric learning methods by a large margin. 
+          </abs>
+        </td>
+      </tr>
+      
       <tr onmouseout="scenediffuser_stop()" onmouseover="scenediffuser_start()">
         <td style="padding:20px;width:25%;vertical-align:middle;padding-top:60px;padding-bottom:0px;">
           <div class="one">
@@ -106,7 +145,6 @@
         </td>
       </tr>
 
-
     </tbody></table>
     
     <!-- EXPERIENCE -->
@@ -132,9 +170,18 @@
         <td style="padding:10px;width:18px;vertical-align:middle"><img src="images/Institution/tsinghua.svg", width="100px"></td>
         <td width="90%" valign="center">
           <b>Tsinghua University</b>, China
-          <br> 2020.08 - now
+          <br> 2020.08 - 2024.07
           <br>
           <br> <b>Undergraduate Student</b>
+        </td>
+      </tr>
+      <tr>
+        <td style="padding:10px;width:18px;vertical-align:middle"><img src="images/Institution/tsinghua.svg", width="100px"></td>
+        <td width="90%" valign="center">
+          <b>Tsinghua University</b>, China
+          <br> 2024.08 - now
+          <br>
+          <br> <b>Ph.D. candidate</b>
         </td>
       </tr>
     </tbody></table>
