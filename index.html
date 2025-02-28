@@ -43,7 +43,7 @@
                 <p style="text-align:center">
                   <a href="mailto:liuyu_ai@foxmail.com">Email</a> &nbsp/&nbsp
                   <a href="https://scholar.google.com/citations?user=t1-cWnoAAAAJ&hl=en" target="_blank">Google Scholar</a> &nbsp/&nbsp
-                  <a href="https://github.com/yuLiu-ly/" target="_blank">Github</a> &nbsp/&nbsp
+                  <a href="https://github.com/yuLiu-ly/" target="_blank">Github</a> 
                 </p>
               </td>
               <td style="padding:2.5%;width:30%;max-width:30%">
@@ -61,6 +61,48 @@
         </tr>
     </tbody></table>
     <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+      <tr onmouseout="scenediffuser_stop()" onmouseover="scenediffuser_start()">
+        <td style="padding:20px;width:25%;vertical-align:middle;padding-top:60px;padding-bottom:0px;">
+          <div class="one">
+            <div class="two" id='scenediffuser_image'>
+              <img src='images/Research/artgs.gif' width="190"></div>
+            <img src='images/Research/artgs.gif' width="190">
+          </div>
+          <script type="text/javascript">
+            function scenediffuser_start() {
+              document.getElementById('scenediffuser_image').style.opacity = "1";
+            }
+
+            function scenediffuser_stop() {
+              document.getElementById('scenediffuser_image').style.opacity = "0";
+            }
+            scenediffuser_stop()
+          </script>
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle;padding-bottom:0px;">
+          <papertitle>Building Interactable Replicas of Complex Articulated Objects via Gaussian Splatting</papertitle>
+          <br>
+          <strong>Yu Liu*</strong>,
+          <a href="https://buzz-beater.github.io/" target="_blank">Baoxiong Jia*</a>,
+          <a href="https://github.com/Jason-aplp" target="_blank">Ruijie Lu</a>,
+          <a href="https://dali-jack.github.io/Junfeng-Ni/" target="_blank">JunFeng Ni</a>,
+          <a href="https://www.zhusongchun.net" target="_blank">Song-Chun Zhu</a>,
+          <a href="https://siyuanhuang.com/" target="_blank">Siyuan Huang</a>
+          <br>
+          <em>ICLR</em> 2025
+          <br>
+          <a href="https://arxiv.org/abs/2502.19459" target="_blank">[Paper]</a>
+          &nbsp
+          <a href="https://articulate-gs.github.io/" target="_blank">[Project Page]</a>
+          &nbsp
+          <a href="https://github.com/YuLiu-LY/ArtGS" target="_blank">[Code]</a>
+          <br>
+          <abs>
+            We introduce ArtGS, a novel approach that leverages 3D Gaussians to reconstruct articulated objects from 2 states of RGBD images, which achieves state-of-the-art performance in joint parameter estimation and part mesh reconstruction.
+          </abs>
+        </td>
+      </tr>
+      
       <tr onmouseout="scenediffuser_stop()" onmouseover="scenediffuser_start()">
         <td style="padding:20px;width:25%;vertical-align:middle;padding-top:60px;padding-bottom:0px;">
           <div class="one">
@@ -85,7 +127,7 @@
           <strong>Yu Liu*</strong>,
           <a href="https://buzz-beater.github.io/" target="_blank">Baoxiong Jia*</a>,
           <a href="https://yixchen.github.io/" target="_blank">Yixin Chen</a>,
-          <a href="https://siyuanhuang.com/" target="_blank">Siyuan Huang</a>,
+          <a href="https://siyuanhuang.com/" target="_blank">Siyuan Huang</a>
           <br>
           <em>ECCV</em> 2024
           <br>
@@ -93,7 +135,7 @@
           &nbsp
           <a href="https://slotlifter.github.io/" target="_blank">[Project Page]</a>
           &nbsp
-          <a href="https://slotlifter.github.io/" target="_blank">[Code (Coming soon)]</a>
+          <a href="https://slotlifter.github.io/" target="_blank">[Code]</a>
           <br>
           <abs>
            We propose SlotLifter, a novel object-centric radiance model that aims to address the challenges of scene reconstruction and decomposition via slot-guided feature lifting. Such a design unites object-centric learning representations and image-based rendering methods, offering state-of-the-art performance in scene decom-position and novel-view synthesis on four challenging synthetic and four complex real-world datasets, outperforming existing 3D object-centric learning methods by a large margin. 
@@ -124,7 +166,7 @@
           <br>
           <a href="https://buzz-beater.github.io/" target="_blank">Baoxiong Jia*</a>,
           <strong>Yu Liu*</strong>,
-          <a href="https://siyuanhuang.com/" target="_blank">Siyuan Huang</a>,
+          <a href="https://siyuanhuang.com/" target="_blank">Siyuan Huang</a>
           <br>
           <em>ICLR</em> 2023
           <br>
@@ -156,22 +198,13 @@
     </tbody></table>
     <table width="100%" align="center" border="0" cellpadding="20"><tbody>
       <tr>
-        <td style="padding:10px;width:18px;vertical-align:middle"><img src="images/Institution/bigai.png", width="100px"></td>
-        <td width="90%" valign="center">
-          <b>Beijing Institute for General Artificial Intelligence(BIGAI)</b>, China
-          <br> 2021.09 - now
-          <br>
-          <br> <b>Research Intern</b>
-          <br> Advisor: <a href="https://buzz-beater.github.io/">Dr. Baoxiong Jia</a>
-        </td>
-      </tr>
-      <tr>
         <td style="padding:10px;width:18px;vertical-align:middle"><img src="images/Institution/tsinghua.svg", width="100px"></td>
         <td width="90%" valign="center">
           <b>Tsinghua University</b>, China
           <br> 2024.08 - now
           <br>
           <br> <b>Ph.D. Student</b>
+          <br> Advisor:  <a href="https://www.zhusongchun.net" target="_blank">Prof. Song-Chun Zhu</a>
         </td>
       </tr>
       <tr>
@@ -181,6 +214,17 @@
           <br> 2020.08 - 2024.07
           <br>
           <br> <b>Undergraduate Student</b>
+          <br> Advisor:  <a href="https://www.zhusongchun.net" target="_blank">Prof. Song-Chun Zhu</a>
+        </td>
+      </tr>
+      <tr>
+        <td style="padding:10px;width:18px;vertical-align:middle"><img src="images/Institution/bigai.png", width="100px"></td>
+        <td width="90%" valign="center">
+          <b>Beijing Institute for General Artificial Intelligence(BIGAI)</b>, China
+          <br> 2021.09 - now
+          <br>
+          <br> <b>Research Intern</b>
+          <br> Advisor: <a href="https://buzz-beater.github.io/">Dr. Baoxiong Jia</a> and <a href="https://siyuanhuang.com/" target="_blank">Dr. Siyuan Huang</a>
         </td>
       </tr>
     </tbody></table>
@@ -194,8 +238,8 @@
     </tbody></table>
     <table width="100%" align="center" border="0" cellpadding="20"><tbody>
       <ul>
-        <li>Tsinghua University outstanding undergraduate graduation thesis</li>
-        <li>Person of the Year 2023, Department of Automation, Tsinghua University</li>
+        <li>Tsinghua University outstanding undergraduate thesis</li>
+        <li>Student of the Year 2023, Department of Automation, Tsinghua University</li>
         <li>Tsinghua University Comprehensive Excellent Award (2020 & 2022)</li>
         <li>Tsinghua Science and Technology Innovation Excellence Award (2021)</li>
         <li>Research Star Award, Beijing Institute for General Artificial Intelligence(BIGAI)</li>
