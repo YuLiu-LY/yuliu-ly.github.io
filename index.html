@@ -55,18 +55,18 @@
     <!-- RESEARCH -->
     <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
         <tr>
-          <td style="padding:20px;width:100%;vertical-align:middle;padding-bottom:0px;">
+          <td style="padding:30px;width:100%;vertical-align:middle;padding-bottom:0px;">
             <heading>Research</heading>
           </td>
         </tr>
     </tbody></table>
     <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
       <tr onmouseout="scenediffuser_stop()" onmouseover="scenediffuser_start()">
-        <td style="padding:20px;width:25%;vertical-align:middle;padding-top:60px;padding-bottom:0px;">
+        <td style="padding:30px;width:25%;vertical-align:middle;padding-top:40px;padding-bottom:0px;">
           <div class="one">
             <div class="two" id='scenediffuser_image'>
-              <img src='images/Research/artgs.gif' width="190"></div>
-            <img src='images/Research/artgs.gif' width="190">
+              <img src='images/Research/artgs.gif' width="190">
+            </div>
           </div>
           <script type="text/javascript">
             function scenediffuser_start() {
@@ -79,7 +79,7 @@
             scenediffuser_stop()
           </script>
         </td>
-        <td style="padding:20px;width:75%;vertical-align:middle;padding-bottom:0px;">
+        <td style="padding:30px;width:75%;vertical-align:middle;padding-bottom:0px;">
           <papertitle>Building Interactable Replicas of Complex Articulated Objects via Gaussian Splatting</papertitle>
           <br>
           <strong>Yu Liu*</strong>,
@@ -98,13 +98,57 @@
           <a href="https://github.com/YuLiu-LY/ArtGS" target="_blank">[Code]</a>
           <br>
           <abs>
-            We introduce ArtGS, a novel approach that leverages 3D Gaussians to reconstruct articulated objects from 2 states of RGBD images, which achieves state-of-the-art performance in joint parameter estimation and part mesh reconstruction.
+            We introduce <strong>ArtGS</strong>, a novel approach that leverages 3D Gaussians to reconstruct articulated objects from 2 states of RGBD images, which achieves state-of-the-art performance in joint parameter estimation and part mesh reconstruction.
+          </abs>
+        </td>
+      </tr>
+
+      <!-- MOVIS -->
+      <tr onmouseout="scenediffuser_stop()" onmouseover="scenediffuser_stop()">
+        <td style="padding:30px;width:25%;vertical-align:middle;padding-top:20px;padding-bottom:0px;">
+          <div class="one">
+            <div class="two" id='scenediffuser_image'>
+              <img src='images/Research/movis.png' width="190">
+            </div>
+          </div>
+          <script type="text/javascript">
+            function scenediffuser_stop() {
+              document.getElementById('MOVIS_image').style.opacity = "1";
+            }
+
+            function scenediffuser_stop() {
+              document.getElementById('MOVIS_image').style.opacity = "0";
+            }
+            scenediffuser_stop()
+          </script>
+        </td>
+        <td style="padding:30px;width:75%;vertical-align:middle;padding-bottom:0px;">
+          <papertitle>MOVIS: Enhancing Multi-Object Novel View Synthesis for Indoor Scenes</papertitle>
+          <br>
+          <a href="https://github.com/Jason-aplp" target="_blank">Ruijie Lu*</a>,
+          <a href="https://yixchen.github.io/" target="_blank">Yixin Chen*</a>,
+          <a href="https://dali-jack.github.io/Junfeng-Ni/" target="_blank">Junfeng Ni</a >,
+          <a href="https://buzz-beater.github.io/" target="_blank">Baoxiong Jia</a >,
+          <strong>Yu Liu</strong>,
+          <a href="https://github.com/dnvtmf" target="_blank">Diwen Wan</a >,
+          <a href="https://www.cis.pku.edu.cn/info/1177/1378.htm" target="_blank">Gang Zeng</a >,
+          <a href="https://siyuanhuang.com/" target="_blank">Siyuan Huang</a >
+          <br>
+          <em>CVPR</em> 2025 <font color='red'></font>
+          <br>
+          <a href="https://arxiv.org/abs/2412.11457" target="_blank">[Paper]</a >
+          <a href="https://github.com/Jason-aplp/MOVIS-code" target="_blank">[Code]</a >
+          <a href="https://huggingface.co/datasets/JasonAplp/MOVIS" target="_blank">[Data]</a >
+          <a href="https://jason-aplp.github.io/MOVIS/" target="_blank">[Project Page]</a >
+          <br>
+          <abs>
+            We introduce <strong>MOVIS</strong>, which repurposes pre-trained diffusion models for multi-object level novel view synthesis (NVS) in indoor scenes. The key insight lies in incorporating a structure-aware noise scheduler and an auxiliary mask prediction task under novel views.
           </abs>
         </td>
       </tr>
       
       <tr onmouseout="scenediffuser_stop()" onmouseover="scenediffuser_start()">
-        <td style="padding:20px;width:25%;vertical-align:middle;padding-top:60px;padding-bottom:0px;">
+        <td style="padding:30px;width:25%;vertical-align:middle;padding-top:40px;padding-bottom:0px;">
           <div class="one">
             <div class="two" id='scenediffuser_image'>
               <img src='images/Research/slotlifter.png' width="190"></div>
@@ -121,7 +165,7 @@
             scenediffuser_stop()
           </script>
         </td>
-        <td style="padding:20px;width:75%;vertical-align:middle;padding-bottom:0px;">
+        <td style="padding:30px;width:75%;vertical-align:middle;padding-bottom:0px;">
           <papertitle>SlotLifter: Slot-guided Feature Lifting for Learning Object-centric Radiance Fields</papertitle>
           <br>
           <strong>Yu Liu*</strong>,
@@ -138,13 +182,13 @@
           <a href="https://slotlifter.github.io/" target="_blank">[Code]</a>
           <br>
           <abs>
-           We propose SlotLifter, a novel object-centric radiance model that aims to address the challenges of scene reconstruction and decomposition via slot-guided feature lifting. Such a design unites object-centric learning representations and image-based rendering methods, offering state-of-the-art performance in scene decom-position and novel-view synthesis on four challenging synthetic and four complex real-world datasets, outperforming existing 3D object-centric learning methods by a large margin. 
+           We propose <strong>SlotLifter</strong>, a novel object-centric radiance model that aims to address the challenges of scene reconstruction and decomposition via slot-guided feature lifting.
           </abs>
         </td>
       </tr>
 
       <tr onmouseout="scenediffuser_stop()" onmouseover="scenediffuser_start()">
-        <td style="padding:20px;width:25%;vertical-align:middle;padding-top:60px;padding-bottom:0px;">
+        <td style="padding:30px;width:25%;vertical-align:middle;padding-top:40px;padding-bottom:0px;">
           <div class="one">
             <div class="two" id='scenediffuser_image'>
               <img src='images/Research/overview_new.png' width="190"></div>
@@ -161,7 +205,7 @@
             scenediffuser_stop()
           </script>
         </td>
-        <td style="padding:20px;width:75%;vertical-align:middle;padding-bottom:0px;">
+        <td style="padding:30px;width:75%;vertical-align:top;padding-bottom:0px;">
           <papertitle>Improving Object-centric Learning With Query Optimization</papertitle>
           <br>
           <a href="https://buzz-beater.github.io/" target="_blank">Baoxiong Jia*</a>,
@@ -177,11 +221,8 @@
           <a href="https://github.com/YuLiu-LY/BO-QSA" target="_blank">[Code]</a>
           <br>
           <abs>
-            We proposed methods for (1) initializing Slot-Attention modules with learnable queries and 
-            (2) optimizing the model with bi-level optimization. With simple code adjustments on the 
-            vanilla Slot-Attention, our model, Bi-level Optimized Query Slot Attention, 
-            achieves state-of-the-art results on 3 challenging synthetic and 7 complex real-world datasets 
-            in unsupervised image segmentation and reconstruction, outperforming previous baselines by a large margin.
+            We proposed <strong>BO-QSA</strong> for (1) initializing Slot-Attention modules with learnable queries and 
+            (2) optimizing the model with bi-level optimization. 
           </abs>
         </td>
       </tr>
@@ -191,7 +232,7 @@
     <!-- EXPERIENCE -->
     <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
       <tr>
-        <td style="padding:20px;width:100%;vertical-align:middle;padding-top:40px;">
+        <td style="padding:30px;width:100%;vertical-align:middle;padding-top:40px;">
           <heading>Experience</heading>
         </td>
       </tr>
@@ -231,7 +272,7 @@
 
     <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
       <tr>
-        <td style="padding:20px;width:100%;vertical-align:middle;padding-top:40px;">
+        <td style="padding:30px;width:100%;vertical-align:middle;padding-top:40px;">
           <heading>Selected Awards and Honors</heading>
         </td>
       </tr>

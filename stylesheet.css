@@ -98,8 +98,8 @@ a {
 
 abs {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 15px;
-  color:	#EB6400;
+  font-size: 14px;
+  /* color:	#EB6400; */
 }
 
 strong {
