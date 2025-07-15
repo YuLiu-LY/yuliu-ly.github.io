@@ -61,6 +61,7 @@
         </tr>
     </tbody></table>
     <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+      <!-- ArtGS -->
       <tr onmouseout="scenediffuser_stop()" onmouseover="scenediffuser_start()">
         <td style="padding:30px;width:25%;vertical-align:middle;padding-top:40px;padding-bottom:0px;">
           <div class="one">
@@ -84,7 +85,7 @@
           <br>
           <strong>Yu Liu*</strong>,
           <a href="https://buzz-beater.github.io/" target="_blank">Baoxiong Jia*</a>,
-          <a href="https://github.com/Jason-aplp" target="_blank">Ruijie Lu</a>,
+          <a href="https://jason-aplp.github.io/Ruijie-Lu" target="_blank">Ruijie Lu</a>,
           <a href="https://dali-jack.github.io/Junfeng-Ni/" target="_blank">JunFeng Ni</a>,
           <a href="https://www.zhusongchun.net" target="_blank">Song-Chun Zhu</a>,
           <a href="https://siyuanhuang.com/" target="_blank">Siyuan Huang</a>
@@ -102,6 +103,84 @@
           </abs>
         </td>
       </tr>
+
+      <!-- DP-Recon -->
+      <tr onmouseout="scenediffuser_stop()" onmouseover="scenediffuser_start()">
+        <td style="padding:30px;width:25%;vertical-align:middle;padding-top:40px;padding-bottom:0px;">
+          <div class="one" style="display: flex; align-items: center;">
+            <video width="120%" height="auto" muted autoplay loop>
+              <source src="images/Research/dprecon.mp4" type="video/mp4">
+            </video>
+          </div>
+        </td>
+        <td style="padding:30px;width:75%;vertical-align:middle;padding-bottom:0px;">
+          <papertitle>Decompositional Neural Scene Reconstruction with Generative Diffusion Prior</papertitle>
+              <br>
+                <a href="https://dali-jack.github.io/Junfeng-Ni/" target="_blank">Junfeng Ni</a>,
+                <strong>Yu Liu</strong>, 
+                <a href="https://jason-aplp.github.io/Ruijie-Lu" target="_blank">Ruijie Lu</a>,
+                <a href="https://github.com/zr-zhou0o0" target="_blank">Zirui Zhou</a>,
+                <a href="https://zhusongchun.net/" target="_blank">Song-Chun Zhu</a>, 
+                <a href="https://yixchen.github.io/" target="_blank">Yixin Chen</a>,
+                <a href="https://siyuanhuang.com/" target="_blank">Siyuan Huang</a>
+              <br>
+              <em>CVPR</em> 2025
+              <br>
+              <a href="https://arxiv.org/abs/2503.14830" target="_blank">[Paper]</a>
+              <a href="https://dp-recon.github.io/" target="_blank">[Project Page]</a>
+              <a href="https://github.com/DP-Recon/DP-Recon" target="_blank">[Code]</a>
+              <br>
+              <abs>
+                We introduce <strong>DP-Recon</strong>, a novel approach that distills off-the-shelf diffusion models for high-quality decompositional scene reconstruction from sparse view images. Further fine-grained editings are well supported.
+              </abs>
+        </td>
+      </tr>
+
+
+      <!-- TACO -->
+      <tr onmouseout="scenediffuser_stop()" onmouseover="scenediffuser_start()">
+        <td style="padding:30px;width:25%;vertical-align:middle;padding-top:40px;padding-bottom:0px;">
+          <div class="one" style="display: flex; align-items: center;">
+            <video width="120%" height="auto" muted autoplay loop>
+              <source src="images/Research/TACO.mp4" type="video/mp4">
+            </video>
+          </div>
+          <script type="text/javascript">
+            function scenediffuser_start() {
+              document.getElementById('scenediffuser_image').style.opacity = "1";
+            }
+
+            function scenediffuser_stop() {
+              document.getElementById('scenediffuser_image').style.opacity = "0";
+            }
+            scenediffuser_stop()
+          </script>
+        </td>
+        <td style="padding:30px;width:75%;vertical-align:middle;padding-bottom:0px;">
+          <papertitle>TACO: Taming Diffusion for in-the-wild Video Amodal Completion</papertitle>
+              <br>
+              <a href="https://jason-aplp.github.io/Ruijie-Lu" target="_blank">Ruijie Lu</a>,
+              <a href="https://yixchen.github.io/" target="_blank">Yixin Chen</a>,
+              <strong>Yu Liu</strong>,
+            <a href="https://me.kiui.moe/" target="_blank">Jiaxiang Tang</a>,
+              <a href="https://dali-jack.github.io/Junfeng-Ni/" target="_blank">Junfeng Ni</a>,
+              <a href="https://github.com/dnvtmf" target="_blank">Diwen Wan</a>,
+              <a href="https://www.cis.pku.edu.cn/info/1177/1378.htm" target="_blank">Gang Zeng</a>,
+              <a href="https://siyuanhuang.com/" target="_blank">Siyuan Huang</a>
+              <br>
+              <em>ICCV</em> 2025 <font color='red'></font>
+              <br>
+              <a href="https://arxiv.org/abs/2503.12049" target="_blank">[Paper]</a>
+              <a href="https://jason-aplp.github.io/Ruijie-Lu/TACO-code" target="_blank">[Code]</a>
+              <a href="https://huggingface.co/datasets/JasonAplp/TACO_training_dataset" target="_blank">[Data]</a>
+              <a href="https://jason-aplp.github.io/TACO/" target="_blank">[Project Page]</a>
+              <br>
+              <abs>
+                We introduce <strong>TACO</strong>, which repurposes pre-trained video diffusion models for Video Amodal Completion (VAC), facilitating downstream tasks like reconstruction. The key insight lies in the data curation and progressive training strategy. 
+              </abs>
+        </td>
+      </tr>
+      
 
       <!-- MOVIS -->
       <tr onmouseout="scenediffuser_stop()" onmouseover="scenediffuser_stop()">
@@ -125,7 +204,7 @@
         <td style="padding:30px;width:75%;vertical-align:middle;padding-bottom:0px;">
           <papertitle>MOVIS: Enhancing Multi-Object Novel View Synthesis for Indoor Scenes</papertitle>
           <br>
-          <a href="https://github.com/Jason-aplp" target="_blank">Ruijie Lu*</a>,
+          <a href="https://jason-aplp.github.io/Ruijie-Lu" target="_blank">Ruijie Lu*</a>,
           <a href="https://yixchen.github.io/" target="_blank">Yixin Chen*</a>,
           <a href="https://dali-jack.github.io/Junfeng-Ni/" target="_blank">Junfeng Ni</a >,
           <a href="https://buzz-beater.github.io/" target="_blank">Baoxiong Jia</a >,
@@ -137,7 +216,7 @@
           <em>CVPR</em> 2025 <font color='red'></font>
           <br>
           <a href="https://arxiv.org/abs/2412.11457" target="_blank">[Paper]</a >
-          <a href="https://github.com/Jason-aplp/MOVIS-code" target="_blank">[Code]</a >
+          <a href="https://jason-aplp.github.io/Ruijie-Lu/MOVIS-code" target="_blank">[Code]</a >
           <a href="https://huggingface.co/datasets/JasonAplp/MOVIS" target="_blank">[Data]</a >
           <a href="https://jason-aplp.github.io/MOVIS/" target="_blank">[Project Page]</a >
           <br>
