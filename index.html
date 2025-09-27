@@ -80,6 +80,51 @@
         </tr>
     </tbody></table>
     <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+      <!-- VideoArtGS -->
+      <tr onmouseout="scenediffuser_stop()" onmouseover="scenediffuser_start()">
+        <td style="padding:30px;width:25%;vertical-align:middle;padding-top:40px;padding-bottom:0px;">
+          <div class="one" style="display: flex; align-items: center;">
+            <video width="120%" height="auto" muted autoplay loop>
+              <source src="images/Research/videoartgs.mp4" type="video/mp4">
+            </video>
+          </div>
+          <script type="text/javascript">
+            function scenediffuser_start() {
+              document.getElementById('scenediffuser_image').style.opacity = "1";
+            }
+
+            function scenediffuser_stop() {
+              document.getElementById('scenediffuser_image').style.opacity = "0";
+            }
+            scenediffuser_stop()
+          </script>
+        </td>
+        <td style="padding:30px;width:75%;vertical-align:middle;padding-bottom:0px;">
+          <papertitle>VideoArtGS: Building Digital Twins of Articulated Objects from Monocular Video</papertitle>
+          <br>
+          <strong>Yu Liu</strong>,
+          <a href="https://buzz-beater.github.io/" target="_blank">Baoxiong Jia</a>,
+          <a href="https://jason-aplp.github.io/Ruijie-Lu" target="_blank">Ruijie Lu</a>,
+          <a href="https://github.com/Juliagan2004" target="_blank">Chuyue Gan</a>,
+          <a href="https://github.com/HuayuChen2004" target="_blank">Huayu Chen</a>,
+          <a href="https://dali-jack.github.io/Junfeng-Ni/" target="_blank">JunFeng Ni</a>,
+          <a href="https://www.zhusongchun.net" target="_blank">Song-Chun Zhu</a>,
+          <a href="https://siyuanhuang.com/" target="_blank">Siyuan Huang</a>
+          <br>
+          <em>Preprint</em> 
+          <br>
+          <a href="https://arxiv.org/abs/2509.17647" target="_blank">[Paper]</a>
+          &nbsp
+          <a href="https://videoartgs.github.io/" target="_blank">[Project Page]</a>
+          &nbsp
+          <a href="https://github.com/YuLiu-LY/VideoArtGS" target="_blank">[Code]</a>
+          <br>
+          <abs>
+            We introduce <strong>VideoArtGS</strong>, a novel approach that reconstructs high-fidelity digital twins of articulated objects from monocular video. VideoArtGS demonstrates SOTA performance in articulation and mesh reconstruction, reducing the reconstruction error by about two orders of magnitude compared to existing methods.
+          </abs>
+        </td>
+      </tr>
+
       <!-- ArtGS -->
       <tr onmouseout="scenediffuser_stop()" onmouseover="scenediffuser_start()">
         <td style="padding:30px;width:25%;vertical-align:middle;padding-top:40px;padding-bottom:0px;">
